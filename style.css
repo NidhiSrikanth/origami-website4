@@ -1,0 +1,45 @@
+
+.header{
+    background-color:lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin:10px;
+
+}
+
+.grid{
+    background-color: #efc9f2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    background-color: #2345a9;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+    padding:30px;
+}
+.menu{
+    padding:30px;
+}
+.menu a{
+    margin-top:30px;
+}
+.item{
+    padding:15px
+    
+}
+a:link{
+    color:white
+}
+a:visited{
+    color:white
+}
+.item:hover{
+    transform: scale(1.2);
+}
+.item p{
+    margin-left: 10px;
+}
